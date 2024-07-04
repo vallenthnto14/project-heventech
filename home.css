@@ -1,0 +1,220 @@
+/*-------------------------- GOOGLE FONT ------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+/*---------------------------------------- NAVBAR --------------------------------------- */
+.container-fluid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: lightseagreen;
+}
+
+.auth {
+  align-items: center;
+}
+
+/*---------------------------------------- SAMPUL --------------------------------------- */
+.carousel-inner img {
+  max-height: 500px;
+  width: auto;
+}
+/*---------------------------------------- GALLERY --------------------------------------- */
+  .judul1 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 3%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10px;
+  }
+
+  .card-gallery {
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+
+  .card-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-gallery:hover {
+    transform: scale(1.05);
+  }
+
+  /*---------------------------------------- ARTIKEL --------------------------------------- */
+  .judul2 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 3%;
+  }
+
+  .konten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .card-artikel {
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+    background-color: #1f48c2;
+    margin-top: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .card-artikel img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+  }
+
+  .card-content1 {
+    padding: 10px;
+  }
+
+  .card-title1 {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .card-text1 {
+    font-size: 14px;
+    color: white
+  }
+
+  .card-artikel .read-more-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 13px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .card-artikel .read-more-btn:hover {
+    background-color: black;
+  }
+
+  /*---------------------------------------- FOOTER --------------------------------------- */
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #333;
+    margin-top: auto;
+    color: white;
+    flex-wrap: wrap;
+  }
+
+  .footer-kontak {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    flex: 1;
+    text-align: center;
+  }
+
+  .footer-kontak h3 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .footer-kontak p {
+    font-size: 15px;
+  }
+
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-icon img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+  }
+
+  .footer-link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-link a {
+    color: white;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .footer-link a:hover {
+    color: lightseagreen;
+  }
+
+  .footer-copyright {
+    background-color: purple;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+  }
